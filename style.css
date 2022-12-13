@@ -80,6 +80,13 @@ nav {
     .main-wrapper {
         height: 300px;
     } 
+
+    .main-homeproducts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 /*Smart Phone*/
@@ -135,11 +142,11 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: top;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .products {
-    padding: 20px;
+    padding: 10px;
 }
 
 .products img {
