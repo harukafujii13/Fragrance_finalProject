@@ -129,6 +129,52 @@ nav {
     position: relative;
 }
 
+/* HOME PRODUCTS */
+
+.main-homeproducts {
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    margin-top: 5rem;
+}
+
+.products {
+    padding: 20px;
+}
+
+.products img {
+    height: auto;
+    max-width: 100%;
+    
+}
+
+.products h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin: 0.5rem 0;
+}
+
+.products p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.homeproducts-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 17px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 1.5rem;
+}
+
+
+
+
 
 
 
