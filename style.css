@@ -288,9 +288,20 @@ nav {
     opacity: 0.6;
 }
 
+.item-img {
+    transition-duration: 0.5s;
+}
+
+.item-img:hover{
+    box-shadow: 10px 10px 10px rgba(210, 210, 201);
+    transform: translateY(-10px);
+    transition-duration: 0.5s; 
+}
+
 .item img {
     max-width: 20rem;
     height: 18rem;
+    cursor: pointer;
 }
 
 .item {
