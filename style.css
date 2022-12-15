@@ -97,7 +97,8 @@ nav {
         position: absolute;
         right: 0;
         height: 92vh;
-        top: 8vh;
+        /* top: 8vh; */
+        top: 68px;
         background-color: white;
         flex-direction: column;
         align-items: center;
@@ -113,9 +114,9 @@ nav {
         display: block;
     }
 
-    .main-wrapper {
+    /* .main-wrapper {
         height: 300px;
-    } 
+    }  */
 
     .main-homeproducts {
         display: flex;
@@ -129,6 +130,12 @@ nav {
         align-items: center;
     }
 
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 /*Smart Phone*/
@@ -136,6 +143,7 @@ nav {
     .main-wrapper {
         height: 200px;
     }
+
 } 
 
 
@@ -310,6 +318,48 @@ nav {
     font-size: 1rem;
     margin: 1rem 0;
     text-align: center;
+}
+
+.bestseller-bottom {
+    border-bottom: solid 1px black;
+    margin: 2rem 1.5rem;
+}
+
+/* FOOTER */
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer-container h4{
+    font-family: 'Noto Serif', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.footer-container p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.benefit-content {
+   padding: 1rem;
+}
+
+.footer-bottum {
+    text-align: center;
+    margin-top: 3rem;
+    background-color: rgb(210, 210, 201);
+    padding: 2rem 0;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
